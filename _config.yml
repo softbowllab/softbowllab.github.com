@@ -1,1 +1,30 @@
-theme: jekyll-theme-slate
+# Site settings
+title: SOFTBOWL Lab.
+email: escho@softbowl.co.kr
+description: >
+  Documentation for [company name]'s' [name of API].
+
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: https://softbowllab.github.io/
+git_address: https://github.com/softbowllab/softbowllab.github.io
+git_edit_address: https://github.com/softbowllab/softbowllab.github.io
+
+# Theme options from https://bootswatch.com/
+# comment-out to use default Bootstrap
+bootwatch: flatly
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+gems:
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .idea/
+  - .gitignore
+  - README.md
